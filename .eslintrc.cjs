@@ -31,5 +31,6 @@ module.exports = {
         groups: ["multiline", "unknown", "shorthand"],
       },
     ],
+    "react/no-unknown-property": ["error", { ignore: ["css"] }],
   },
 };
