@@ -1,11 +1,15 @@
+import { Providers } from "@/app/providers";
+import "antd/dist/reset.css";
+
 export const App = () => {
   return (
-    <main>
-      <section>
-        <header>
-          <h1>Hello World</h1>
-        </header>
-      </section>
-    </main>
+    <Providers>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        atque placeat voluptatum praesentium id hic, esse quisquam maiores
+        consequuntur officia veniam soluta, excepturi tempora nam
+        exercitationem, expedita ea? Consequatur, inventore.
+      </p>
+    </Providers>
   );
 };

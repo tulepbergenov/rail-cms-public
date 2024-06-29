@@ -26,7 +26,8 @@
     /* Alias */
     "types": ["node"],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/app/*": ["./src/app/*"],
+      "@/shared/*": ["./src/shared/*"]
     }
   },
   "include": ["src"]
